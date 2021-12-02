@@ -14,7 +14,7 @@ public class Main
 		//Se cambia toda la palabra a mayusculas
         Palabra = Palabra.toUpperCase();
 
-		//Imprimimos la palabra sin espacios
+		//Imprimimos la palabra en mayusculas
 		System.out.println("\n--> "+Palabra);
 	}
 }
