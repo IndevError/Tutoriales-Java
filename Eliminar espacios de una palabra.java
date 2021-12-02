@@ -7,13 +7,14 @@ public class Main
 	    String Palabra;
 		Scanner teclado = new Scanner(System.in);
 		
-		//Obtenemos la palabra 
+		//Obtenemos la palabra
+		System.out.println("Ingresa una palabra:");
 		Palabra = teclado.nextLine();
 		
 		//Se Eliminan los espacios de la palabra
 		Palabra = Palabra.replaceAll("\\s+", "");
 		
 		//Imprimimos la palabra sin espacios
-		System.out.println(Palabra);
+		System.out.println("\n--> "+Palabra);
 	}
 }
